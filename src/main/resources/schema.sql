@@ -1,0 +1,8 @@
+CREATE TABLE FESTIVO (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    dia INT NOT NULL,
+    mes INT NOT NULL,
+    nombre VARCHAR(255) NOT NULL,
+    tipo INT NOT NULL,
+    dias_pascua INT NOT NULL
+);
