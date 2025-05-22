@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Default  # Usamos tu agente self-hosted
+  vmImage: 'ubuntu-latest'  # Usamos agente hospedado de Microsoft
 
 steps:
 - script: echo Hello, world!
@@ -17,4 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
